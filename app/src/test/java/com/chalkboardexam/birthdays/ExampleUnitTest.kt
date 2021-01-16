@@ -1,4 +1,4 @@
-package com.example.birthdays
+package com.chalkboardexam.birthdays
 
 import org.junit.Test
 
