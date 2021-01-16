@@ -13,4 +13,5 @@ object Constants {
     //ui constants
     const val BIRTHDAYS_LOADED_SUCCESSFULLY = "Birthdays loaded!"
     const val UNKNOWN_ERROR = "Unknown error"
+    const val SELECTED_BIRTHDAY_KEY = "SELECTED_BIRTHDAY"
 }

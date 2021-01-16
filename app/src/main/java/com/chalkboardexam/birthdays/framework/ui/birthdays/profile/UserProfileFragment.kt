@@ -7,4 +7,8 @@ import com.chalkboardexam.birthdays.framework.ui.birthdays.BaseBirthdaysFragment
 class UserProfileFragment(viewModelFactory: ViewModelProvider.Factory)
     : BaseBirthdaysFragment(R.layout.fragment_user_profile, viewModelFactory) {
 
+    override fun inject() {
+        TODO("Not yet implemented")
+    }
+
 }
