@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".framework.ui.birthdays.UserProfileFragment">
+    tools:context=".framework.ui.birthdays.profile.UserProfileFragment">
 
     <RelativeLayout
         android:id="@+id/user_profile_container"

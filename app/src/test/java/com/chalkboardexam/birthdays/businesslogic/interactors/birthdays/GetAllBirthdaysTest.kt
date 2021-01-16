@@ -3,7 +3,7 @@ package com.chalkboardexam.birthdays.businesslogic.interactors.birthdays
 import com.chalkboardexam.birthdays.businesslogic.data.network.BirthdaysFakeDataSource
 import com.chalkboardexam.birthdays.businesslogic.data.network.abstraction.BirthdaysNetworkDataSource
 import com.chalkboardexam.birthdays.businesslogic.domain.state.MessageType
-import com.chalkboardexam.birthdays.framework.ui.birthdays.state.BirthdayStateEvent
+import com.chalkboardexam.birthdays.framework.ui.birthdays.state.BirthdaysStateEvent
 import com.chalkboardexam.birthdays.utils.Constants
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.runBlocking
@@ -33,7 +33,7 @@ class GetAllBirthdaysTest {
      */
     @Test
     fun getAllBirthdays_success_expectedEmitted10BirthdaysFromFlow() = runBlocking {
-        getAllBirthdays.getAllBirthdays(BirthdayStateEvent.GetAllBirthdaysEvent())
+        getAllBirthdays.getAllBirthdays(BirthdaysStateEvent.GetAllBirthdaysEvent())
             .collect { value ->
                 assertEquals(value?.stateMessage?.response?.message?: "", Constants.BIRTHDAYS_LOADED_SUCCESSFULLY)
                 assertTrue { value?.data?.birthdaysList?.size ?: 0 == 10 }

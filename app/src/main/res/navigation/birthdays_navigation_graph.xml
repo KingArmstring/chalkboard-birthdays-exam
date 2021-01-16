@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/birthdaysFragment"
-        android:name="com.chalkboardexam.birthdays.framework.ui.birthdays.BirthdaysFragment"
+        android:name="com.chalkboardexam.birthdays.framework.ui.birthdays.birthdays.BirthdaysFragment"
         android:label="fragment_birthdays"
         tools:layout="@layout/fragment_birthdays" >
         <action
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/userProfileFragment"
-        android:name="com.chalkboardexam.birthdays.framework.ui.birthdays.UserProfileFragment"
+        android:name="com.chalkboardexam.birthdays.framework.ui.birthdays.profile.UserProfileFragment"
         android:label="fragment_user_profile"
         tools:layout="@layout/fragment_user_profile" >
         <action

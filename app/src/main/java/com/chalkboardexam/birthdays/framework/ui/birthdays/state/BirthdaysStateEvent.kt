@@ -4,7 +4,7 @@ import com.chalkboardexam.birthdays.businesslogic.domain.model.Birthday
 import com.chalkboardexam.birthdays.businesslogic.domain.state.StateEvent
 import com.chalkboardexam.birthdays.utils.Constants
 
-class BirthdayStateEvent {
+class BirthdaysStateEvent {
 
     class GetAllBirthdaysEvent: StateEvent {
 

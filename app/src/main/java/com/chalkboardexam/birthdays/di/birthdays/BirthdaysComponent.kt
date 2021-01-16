@@ -1,8 +1,8 @@
 package com.chalkboardexam.birthdays.di.birthdays
 
 import com.chalkboardexam.birthdays.framework.ui.birthdays.BirthdaysActivity
-import com.chalkboardexam.birthdays.framework.ui.birthdays.BirthdaysFragment
-import com.chalkboardexam.birthdays.framework.ui.birthdays.UserProfileFragment
+import com.chalkboardexam.birthdays.framework.ui.birthdays.birthdays.BirthdaysFragment
+import com.chalkboardexam.birthdays.framework.ui.birthdays.profile.UserProfileFragment
 import dagger.Subcomponent
 
 @BirthdaysScope
