@@ -20,4 +20,5 @@ README
 
 3. I did not:
     1. No time to UI test the application, if there was enough time, I would have used Espresso to test the UI
+    2. I did not make pagination(if I dont know how many Birthdays will be loaded from the network call or it huge like 1000 in our case I should load only a small number of Birthdays and when the user get to the bottom of the screen I then should get other small portion) I need a filter that helps me to choose like from Birthday 1 to 10, then from 11 to 20 and so on, I think it exists for this api but not sure, the second reason is I did not have time to either check or implement this feature.
 
