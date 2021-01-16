@@ -1,0 +1,2 @@
+No need to cache, I am using retrofit caching since this is a simple GET request, in an ordinary
+project I would prefer to use Room for data persistance.

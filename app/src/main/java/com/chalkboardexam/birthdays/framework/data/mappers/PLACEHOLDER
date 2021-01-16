@@ -1,0 +1,2 @@
+I won't use mappers in this mini project to save time but in an ordinary project I usually map Entity
+classes returned from data sources(Network/Cache) to models used to fill ui.
