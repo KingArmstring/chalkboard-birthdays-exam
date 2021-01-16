@@ -1,0 +1,120 @@
+{
+  "results": [
+    {
+      "name": {
+        "title": "Miss",
+        "first": "Pamela",
+        "last": "Howell"
+      },
+      "dob": {
+        "date": "1980-02-26T07:16:39.510Z",
+        "age": 41
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Toby",
+        "last": "Jackson"
+      },
+      "dob": {
+        "date": "1946-03-03T10:34:51.447Z",
+        "age": 75
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Valdir",
+        "last": "Costa"
+      },
+      "dob": {
+        "date": "1950-12-05T23:49:50.904Z",
+        "age": 71
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Sertan",
+        "last": "Gommers"
+      },
+      "dob": {
+        "date": "1981-10-09T03:52:30.372Z",
+        "age": 40
+      }
+    },
+    {
+      "name": {
+        "title": "Ms",
+        "first": "Alma",
+        "last": "Pedersen"
+      },
+      "dob": {
+        "date": "1981-02-15T00:41:24.038Z",
+        "age": 40
+      }
+    },
+    {
+      "name": {
+        "title": "Mrs",
+        "first": "Amy",
+        "last": "Roy"
+      },
+      "dob": {
+        "date": "1947-01-15T06:43:10.004Z",
+        "age": 74
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "George",
+        "last": "James"
+      },
+      "dob": {
+        "date": "1962-04-14T03:03:38.410Z",
+        "age": 59
+      }
+    },
+    {
+      "name": {
+        "title": "Mrs",
+        "first": "Chloe",
+        "last": "Harris"
+      },
+      "dob": {
+        "date": "1978-11-16T12:22:13.488Z",
+        "age": 43
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Oğuzhan",
+        "last": "Karadaş"
+      },
+      "dob": {
+        "date": "1971-12-12T00:01:50.147Z",
+        "age": 50
+      }
+    },
+    {
+      "name": {
+        "title": "Mrs",
+        "first": "Ilona",
+        "last": "Lauri"
+      },
+      "dob": {
+        "date": "1983-04-17T18:21:44.281Z",
+        "age": 38
+      }
+    }
+  ],
+  "info": {
+    "seed": "chalkboard",
+    "results": 10,
+    "page": 1,
+    "version": "1.3"
+  }
+}
