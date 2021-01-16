@@ -5,6 +5,7 @@ README
     3. If if for some reason Gradle can’t build imports at the top of the file build.gradle the app level, please click on file->Sync Project with Gradle Files.
 
 2. Technical choices:
+    0. The application supports offline work and the cache remains for 5 days, also the network call can be made once per minute, if the user tries to show the data again, the application will show the cache.
     1. Arch: MVI (I can use MVVM but I prefer MVI, if the team uses MVVM I won’t break the harmony of the team, I will use it with them).
     2. I use Retrofit as http client, it’s the best and is recommenced by Google.
     3. I did not use Graph QL but I am burning to try it, why? because I am used to REST and I wanted to be the fastest, but I want to be using GraphQl in the future if I join the team.
@@ -12,10 +13,11 @@ README
     5. I used JUnit to test the lonely use-case we have which is GetAllBirthdays, use-cases simply act like a mini Repository that is passed to the ViewModel, this way the actions the application can take can be tested easily, modified easily, and can be understood because this style give the ability to visualize what the application is capable of.
     6. I used MockWebServer to test the network, I had to provide some fake data to test out api against, will be found in the file “fake_data.josn”
     7. I use Kotlin Coroutines, not using RxJava anymore, I have been using RxJava for years now I am using Kotlin coroutines and Kotlin channels and flows
+    8. I used lot's of copy pasting in the Dagger part, and in the state management. These classes are exactly the same everytime but I do understand them very well, not just copy pasting.
+    9. The function safeApiCall is from a medium blog post created by @douglas.iacovelli, all credit to him.
+    10. I used navigation components to move between fragments
+   11. Used basic slide animations between fragments
 
 3. I did not:
     1. No time to UI test the application, if there was enough time, I would have used Espresso to test the UI
 
-4. I used lot's of copy pasting in the Dagger part, and in the state management. These classes are exactly the same everytime but I do understand them very well, not just copy pasting.
-
-5. The function safeApiCall is from a medium blog post created by @douglas.iacovelli, all credit to him.
