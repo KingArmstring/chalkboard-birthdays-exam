@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Birthdays</string>
+    <string name="birthdays_fragment_title">Birthdays</string>
+    <string name="user_prof_text_placeholder">PH</string>
+    <string name="user_jane_name_placeholder">Jane</string>
+    <string name="user_age_placeholder">24 years old</string>
+    <string name="btn_go_back">Go Back</string>
+    <string name="list_item_name_placeholder">name placeholder</string>
+    <string name="user_birthday_placeholder">24–12-1999</string>
 </resources>
