@@ -43,6 +43,10 @@ android {
     kotlinOptions {
         jvmTarget = Java.java_version
     }
+    packagingOptions {
+        exclude 'META-INF/AL2.0'
+        exclude 'META-INF/LGPL2.1'
+    }
 }
 
 dependencies {
@@ -81,6 +85,7 @@ dependencies {
     androidTestImplementation AndroidTestDependencies.test_runner
     androidTestImplementation AndroidTestDependencies.test_rules
     androidTestImplementation AndroidTestDependencies.text_core_ktx
+    androidTestImplementation "com.squareup.okhttp3:mockwebserver:4.7.2" // should move this dep into AndroidTestDep file if there is time
 
 
 
