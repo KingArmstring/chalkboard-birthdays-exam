@@ -1,4 +1,4 @@
-package com.chalkboardexam.birthdays
+package com.chalkboardexam.birthdays.framework.ui.birthdays
 
 import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
