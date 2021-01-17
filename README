@@ -12,7 +12,7 @@ README
     4. I use Dagger, it’s recommenced by Google, also I have been using it like since I started Android so it is kind of something I am used to(Again I am not going to break the harmony of the team if the team is using any other tool, I will use it).
     5. I used JUnit to test the lonely use-case we have which is GetAllBirthdays, use-cases simply act like a mini Repository that is passed to the ViewModel, this way the actions the application can take can be tested easily, modified easily, and can be understood because this style give the ability to visualize what the application is capable of.
     6. I used MockWebServer to test the network, I had to provide some fake data to test out api against, will be found in the file “fake_data.josn”
-    7. I use Kotlin Coroutines, not using RxJava anymore, I have been using RxJava for years now I am using Kotlin coroutines and Kotlin channels and flows
+    7. I use Kotlin Coroutines, not using RxJava anymore, I have been using RxJava for years now I am using Kotlin coroutines and Kotlin flows
     8. I used lot's of copy pasting in the Dagger part, and in the state management. These classes are exactly the same everytime but I do understand them very well, not just copy pasting.
     9. The function safeApiCall is from a medium blog post created by @douglas.iacovelli, all credit to him.
     10. I used navigation components to move between fragments
